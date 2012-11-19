@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:id="@+id/classTextName"
+       
+        android:textStyle="bold"
+        android:textSize="18pt"
+        android:typeface="sans"
+       android:gravity="center"
+   
+         />   
+         <TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="This is a simple two button app. \r\n \r\n Tell your user what your app does here \r\n \r\n \r\n \r\n"
+    android:padding="10dp"
+    android:textColor="#FFFFFF"
+    /> 
+
+<Button
+ android:id="@+id/buttonFind"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:text="Find Classmates"/>
+<Button
+ android:id="@+id/buttonForum"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:text="Question Forum"/>
+<Button
+ android:id="@+id/buttonNotes"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:text="Class Notes"/>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studybuddy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+ 
+    
+        <uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+ <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+ <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+ 
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".StudyBuddy"
+            android:label="@string/title_activity_study_buddy" >
+            
+        </activity>
+        <activity android:name=".FindClassmates"
+          android:label="@string/app_name">
+	</activity>
+	      <uses-library android:name="com.google.android.maps" />
+        
+	  <activity android:name=".Login"
+                  android:label="StudyBuddy">
+	      <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+	  </activity>
+
+	 <activity android:name=".Register"
+                  android:label="Register New Account"></activity>
+
+	  <activity android:name=".MainActivity"
+                  android:label="Home page"></activity>
+
+	   <activity android:name=".SettingsActivity"
+                  android:label="Settings page"></activity>
+
+	   
+	    <activity android:name=".ViewClasses"
+                  android:label="ViewClass page"></activity>
+	   
+	    
+	     <activity android:name=".AddClass"
+                  android:label="Add Class page"></activity>
+	    
+    </application>
+    
+
+</manifest>
