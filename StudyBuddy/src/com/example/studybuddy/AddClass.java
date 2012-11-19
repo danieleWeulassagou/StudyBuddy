@@ -15,7 +15,7 @@ import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 
-
+//TEST COMMENT FOR COMMIT
 //THIS IS A TEST
 //Test 2
 public class AddClass extends Activity{
