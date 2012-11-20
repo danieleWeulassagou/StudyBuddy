@@ -21,6 +21,7 @@ import com.parse.ParseUser;
 //Test 2
 //pioiuggf
 //TEst
+//Another
 public class AddClass extends Activity{
 
 	 public void onCreate(Bundle savedInstanceState) 
