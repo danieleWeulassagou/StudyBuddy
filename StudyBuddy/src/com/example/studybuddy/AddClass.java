@@ -15,6 +15,7 @@ import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 
+//ADD TO ADD CLASS
 //TEST COMMENT FOR COMMIT
 //THIS IS A TEST
 //Test 2
