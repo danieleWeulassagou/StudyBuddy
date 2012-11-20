@@ -19,6 +19,7 @@ import com.parse.ParseUser;
 //TEST COMMENT FOR COMMIT
 //THIS IS A TEST
 //Test 2
+//pioiuggf
 public class AddClass extends Activity{
 
 	 public void onCreate(Bundle savedInstanceState) 
